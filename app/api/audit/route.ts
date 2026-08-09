@@ -48,7 +48,7 @@ Do not invent facts. Do not claim this is an official Google ranking.
       },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        tools: [{ google_search: {} }]
+    
       })
     }
   );
